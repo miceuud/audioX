@@ -4,9 +4,9 @@ pragma solidity ^0.8.4;
 import "@openzeppelin/contracts/token/ERC20/ERC20.sol";
 import "@openzeppelin/contracts/token/ERC20/extensions/IERC20Metadata.sol";
 
-contract SoundX is ERC20 {
+contract AudioX is ERC20 {
    address owner;
-    constructor(uint256 initialSupply) ERC20("SoundX", "SXT") {
+    constructor(uint256 initialSupply) ERC20("AudioX", "AUT") {
       owner = msg.sender;
         _mint(owner, initialSupply);
     }
